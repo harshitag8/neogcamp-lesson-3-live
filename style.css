@@ -1,4 +1,4 @@
-body {
+/* body {
     color:royalblue;
 }
 
@@ -16,4 +16,9 @@ h2 {
 
 .para {
     color:rebeccapurple;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+#lib-header {
+    font-family: 'Bebas Neue', cursive;
 }

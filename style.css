@@ -17,8 +17,71 @@ h2 {
 .para {
     color:rebeccapurple;
 } */
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --primary-color: #79decf;
+}
+
+/* body {
+    padding-left: 10rem;
+    padding-right: 10rem;
+
+    OR we can do
+
+     max-width: 600px;
+     margin: auto;
+} */
+
+hr {
+    margin: 2rem 0rem;
+}
 
 #lib-header {
     font-family: 'Bebas Neue', cursive;
+}
+
+ /* container */
+ .container {
+     padding-left: 1rem;
+     padding-right: 1rem;
+ }
+
+ .container-center {
+     max-width: 600px;
+     margin: auto;
+}
+
+/* links */
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    
+}
+
+/* look into BEN naming convention in CSS */
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
 }

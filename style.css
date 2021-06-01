@@ -19,6 +19,7 @@ h2 {
 } */
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root {
     --primary-color: #79decf;
@@ -38,6 +39,10 @@ h2 {
 
 hr {
     margin: 2rem 0rem;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
 #lib-header {
@@ -129,6 +134,7 @@ hr {
 .hero .hero-heading {
     padding-top: 1rem;
     color: var(--secondary-color);
+    text-align: center;
 
 }
 
@@ -156,6 +162,11 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .link {

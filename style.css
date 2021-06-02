@@ -67,6 +67,8 @@ body {
     padding: 0.5rem 1rem;
 }
 
+
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
@@ -117,6 +119,7 @@ body {
 
 .navigation .link-active {
     font-weight: bold;
+    font-size: large
 }
 
 /* header */
